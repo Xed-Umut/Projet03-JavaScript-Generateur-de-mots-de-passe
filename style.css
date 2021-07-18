@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;         /* enlever tous les styles par défaut */
+  }
+
+body {
+    background-image: linear-gradient(to left, #6c94ec 0%, #29279c 100%);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.centrer {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    border-color: rgb(255, 255, 255);
+    padding: 20px 20px;
+}
+
+.legend {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.boite {
+    background-color: rgb(20, 31, 92);
+    width: 500px;
+    border-radius: 10px;
+}
+
+.zone1 {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.zone2 {
+    padding: 0 15px 15px;
+}
+
+.afficheur {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    height: 80px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.checkbox-label {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;     /* Les checkbox en fin de ligne */
+    font-size: 18px;
+    font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+    margin: 10px 0;
+}
+
+input[type="number"] {
+    font-size:18px;
+    font-weight: 600;
+}
+
+input[type=checkbox] {                  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.5);            /* IE */
+  -moz-transform: scale(1.5);           /* FF */
+  -webkit-transform: scale(1.5);        /* Safari and Chrome */
+  -o-transform: scale(1.5);             /* Opera */
+  transform: scale(1.5);
+  padding: 10px;
+}
+
+.button {
+    background-color: #ecb602;
+    color: rgb(65, 53, 0);
+    border: none;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(35, 175, 0);
+    color: rgb(255, 255, 255);
+  }

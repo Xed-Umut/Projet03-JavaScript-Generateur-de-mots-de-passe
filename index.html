@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Générateur de mot de passe (HTML, CSS et JavaScript)</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="http://dev.dagdemir.fr/favicon.ico" />
+    </head>
+
+    <body>
+        <div class="centrer">
+            <fieldset>
+                <legend class="legend">Générateur de mots de passe en JavaScript</legend>
+                <table>
+                    <div class="boite">
+                        <div class="zone1">
+                            <div class="afficheur">
+                                <span id="afficheur">Attente ...</span>
+                            </div>
+                        </div>
+                        <div class="zone2">
+                            <div class="checkbox-label">
+                                <label for="longueur">Longueur du mot de passe</label>
+                                <input id="longueur" value="16" type="number" min="6" max="26" />
+                            </div>
+                            <div class="checkbox-label">
+                                <label for="majuscules">Lettres en majuscule</label>
+                                <input id="majuscules" type="checkbox" checked />
+                            </div>
+                            <div class="checkbox-label">
+                                <label for="minuscules">Lettres en minuscule</label>
+                                <input id="minuscules" type="checkbox" checked />
+                            </div>
+                            <div class="checkbox-label">
+                                <label for="chiffres">Chiffres</label>
+                                <input id="chiffres" type="checkbox" checked />
+                            </div>
+                            <div class="checkbox-label">
+                                <label for="symboles">Symboles</label>
+                                <input id="symboles" type="checkbox" />
+                            </div>
+                            <button class="button" id="button">Générer un mot de passe</button>
+                        </div>
+                    </div>
+                </table>
+            </fieldset>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

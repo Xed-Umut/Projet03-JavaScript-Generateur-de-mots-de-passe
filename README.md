@@ -1,11 +1,12 @@
-## Projet03-JavaScript-Generateur-de-mots-de-passe
-
 ## Introduction
 Un **générateur de mots de passe complexes** qui prend en compte, selon le choix de l'utilisateur, les lettres majuscules, minuscules, les chiffres et les caractères spéciaux.
-- L'application a été développée en Javascript avec frontEnd HTML/CSS
-- L'application est déployée [ici](http://dev.dagdemir.fr/js/02/).
+- L'application a été développée en Javascript avec frontEnd HTML/CSS</br></br>
 
-</br><img src="https://i.imgur.com/vrAWUvh.jpeg" alt="Generateur de mots de passe"/>
+## Application en ligne
+- L'application est déployée [ici](http://dev.dagdemir.fr/js/02/).</br></br>
+
+## Capture d'écran
+</br><img src="https://i.imgur.com/vrAWUvh.jpeg" alt="Generateur de mots de passe"/></br></br>
 
 ### Les règles à respecter pour créer un bon mot de passe
 

@@ -18,7 +18,7 @@ function genererMDP() {
 
 	// Vérifie s'il y a au moins une case de coché
 	if (majusculesJS.checked == false && minusculesJS.checked == false && chiffresJS.checked == false && symbolesJS.checked == false){
-		alert("Attention aucune case n'est coché");
+		alert("Attention aucune case n'est cochée");
 		document.getElementById("majuscules").checked = true;
 		document.getElementById("minuscules").checked = true;
 		return;

@@ -1,4 +1,3 @@
-
 const afficheurJS = document.getElementById("afficheur");
 const longueurJS = document.getElementById("longueur");
 const majusculesJS = document.getElementById("majuscules");
@@ -17,6 +16,15 @@ function genererMDP() {
     let password = "";
 	let mdp = [];
 
+	// Vérifie s'il y a au moins une case de coché
+	if (majusculesJS.checked == false && minusculesJS.checked == false && chiffresJS.checked == false && symbolesJS.checked == false){
+		alert("Attention aucune case n'est coché");
+		document.getElementById("majuscules").checked = true;
+		document.getElementById("minuscules").checked = true;
+		return;
+	}
+
+	// 
     for (let i = password.length; i < longueurJS.value; i++) {
 		
 		if (majusculesJS.checked) {
@@ -38,7 +46,7 @@ function genererMDP() {
 			var tablisteSymboles = listeSymboles.split("");
 			mdp = mdp.concat(tablisteSymboles);
 		}
-		
+
         const caractere = mdp[Math.floor(Math.random() * mdp.length)];
         password += caractere;
     }

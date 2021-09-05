@@ -1,5 +1,7 @@
 ## Introduction
 Un **générateur de mots de passe complexes** qui prend en compte, selon le choix de l'utilisateur, les lettres majuscules, minuscules, les chiffres et les caractères spéciaux.
+
+## Langages de programmation
 - L'application a été développée en Javascript avec frontEnd HTML/CSS</br></br>
 
 ## Application en ligne
